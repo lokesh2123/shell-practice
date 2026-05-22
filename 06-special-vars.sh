@@ -2,7 +2,7 @@
 
 ##### Special Vars #####
 person=$1
-read  "Enter your name: " person
+read  "Enter your name:: "
 echo " this is $person, started learning shell scripting"
 
 echo "All variables passed to script: $@"
