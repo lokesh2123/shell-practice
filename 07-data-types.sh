@@ -1,7 +1,8 @@
 #!/bin/bash
 
 NUM1=10
-echo "Number is: $NUM"
+echo "Number is: $NUM1"
+
 NUM2=LOKESH
 echo "Name is: $NUM2"
 
