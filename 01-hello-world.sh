@@ -1,4 +1,3 @@
 #!/bin/bash
 
-# this is comment
-echo "Hello World"
+echo "This is lokesh started learning shell scripting"
