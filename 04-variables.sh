@@ -1,11 +1,23 @@
 #!/bin/bash
 
-echo "Please enter your username::"
-read USER_NAME # here USER_NAME is variable, whatever you enter in terminal stores in this variable
+echo " enter user name :: "
+read USERNAME
 
-echo "Username is $USER_NAME"
+echo "hello $USERNAME, welcome to shell scripting"
 
-echo "Please enter your password::"
-read -s PASSWORD
+echo " enter your age :: "
+read AGE
 
-echo "Password is: $PASSWORD"
+echo "your age is $AGE"
+
+echoo "enter your city :: "
+read CITY
+
+echo "you are from $CITY"
+
+echo "enter your profession :: "
+read PROFESSION 
+
+echo "your profession is $PROFESSION"
+
+echo " Thanks for sharing your information, $USERNAME! It's great to know that you are a $PROFESSION from $CITY and you are $AGE years old."
