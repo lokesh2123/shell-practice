@@ -3,11 +3,11 @@
 # TIMESTAMP=$(date)
 # echo "Time is: $TIMESTAMP"
 
-START_TIME=$(date +%m)
+START_TIME=$(date +%s)
 
 sleep 10
 
-END_TIME=$(date +%m)
+END_TIME=$(date +%s)
 
 TOTAL_TIME=$(($END_TIME-$START_TIME))
 
