@@ -1,9 +1,9 @@
 #!/bin/bash
 
-PERSON1=Russia
-PERSON2=Ukraine
+PERSON="Lokesh"
 
-echo "$PERSON1: Hey Ukraine, we are going blast you!"
-echo "$PERSON2: Yes, please. you are welcome"
-echo "$PERSON1: Hey $PERSON2 I am serious"
-echo "$PERSON2: Hey $PERSON1, we are also serious"
+echo "Hello, $PERSON! Welcome to shell scripting."
+# Conversation simulation
+echo "How are you today, $PERSON?"
+read RESPONSE
+echo "You said: $RESPONSE. That's great to hear!"   
