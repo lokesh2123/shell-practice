@@ -10,7 +10,7 @@ read AGE
 
 echo "your age is $AGE"
 
-echoo "enter your city :: "
+echo "enter your city :: "
 read CITY
 
 echo "you are from $CITY"
