@@ -2,6 +2,8 @@
 
 ##### Special Vars #####
 person="Lokesh"
+echo " this is $person, started learning shell scripting"
+
 echo "All variables passed to script: $@"
 echo "Number of variables passed: $#"
 echo "First variable: $1"
