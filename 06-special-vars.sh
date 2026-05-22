@@ -1,8 +1,9 @@
 #!/bin/bash
 
 ##### Special Vars #####
-person="Lokesh"
-echo " this is $person, started learning shell scripting"
+person=$1
+read  "Enter your name: " person
+echo " this is $1, started learning shell scripting"
 
 echo "All variables passed to script: $@"
 echo "Number of variables passed: $#"
