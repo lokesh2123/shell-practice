@@ -1,9 +1,11 @@
 #!/bin/bash
 
 NUM1=10
-NUM2=linux
+echo "Number is: $NUM"
+NUM2=LOKESH
+echo "Name is: $NUM2"
 
-SUM=$(($NUM1+$NUM2))
+SUM=$((NUM1 + NUM2))
 
 echo "Sum is: $SUM"
 
