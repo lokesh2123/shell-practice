@@ -8,7 +8,7 @@
 
 echo "Runs : $(ls /tmp)" 
 echo "Runs : $(ls /hdvhvdv)"
-echo "Runs : $(ping -c google.com)"
+echo "Runs : $(ping -c 'google.com')"
 
 
 if [ $? -eq 0 ]; then
