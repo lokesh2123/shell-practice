@@ -2,7 +2,7 @@
 
 #Print: User <username> is from <country>
 
-USERNAME=$1(whoami)
+USERNAME=$1
 COUNTRY=$2
 
 echo "User $USERNAME is from $COUNTRY"
