@@ -21,8 +21,7 @@ else
     echo "ls /fakedir ... FAILURE"
     exit 1
 
-elif
-
+    
 ping -c1 google.com
 if [ $? -eq 0 ]; then
     echo "ping google.com ... Host reachable"
