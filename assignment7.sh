@@ -7,6 +7,6 @@
 
 NUMBER=$1
 if [ -z "$NUMBER" ]; then
-    echo "Error: No number provided. Please provide a number as a command line argument."
+    echo "Error: No number provided. Please provide a number as a command line argument : $NUMBER"
     exit 1
 fi
