@@ -2,8 +2,8 @@
 
 #Print: User <username> is from <country>
 
-USERNAME=$(whoami)
-COUNTRY="India"
+USERNAME=$1(whoami)
+COUNTRY=$2
 
 echo "User $USERNAME is from $COUNTRY"
 
