@@ -3,6 +3,6 @@
 echo "This is my first script"
 echo "Hello world"
 
-DATE=$(date +"%Y-%m-%d %H:%M:%S %IST")
+DATE=$(date +"%Y-%m-%d %H:%M:%S %Z")
 sleep 1
 echo "Current date and time is $DATE"
