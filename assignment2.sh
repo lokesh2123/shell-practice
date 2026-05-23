@@ -1,8 +1,8 @@
 #!/bin/bash
 
-NAME=$1
-AGE=$2
-CITY=$3
+NAME=$Lokesh    
+AGE=$29
+CITY=$KOTALLA
 
 echo "My name is $NAME"
 echo "I am $AGE years old" 
