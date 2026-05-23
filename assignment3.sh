@@ -3,7 +3,7 @@
 #Print: User <username> is from <country>
 
 USERNAME=$(whoami)
-COUNTRY="India"
+COUNTRY=$((india))
 
 echo "User $USERNAME is from $COUNTRY"
 
