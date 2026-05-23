@@ -14,3 +14,6 @@ echo "Total number of arguments passed: $#"
 #Print all arguments passed
 
 echo "Arguments passed: $@"
+
+#Print the script name
+echo "Script name: $0"
