@@ -20,5 +20,5 @@ echo "I will turn 60 in $YEARS_TO_60 years"
 
 #Change the name variable to a different name and verify only one line needs to change
 
-NAME=Lokesh Kumar
+NAME=John
 echo "My name is $NAME"
