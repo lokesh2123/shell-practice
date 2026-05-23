@@ -7,6 +7,10 @@ COUNTRY="India"
 
 echo "User $USERNAME is from $COUNTRY"
 
-#PPrint total number of arguments passed
+#Print total number of arguments passed
 
 echo "Total number of arguments passed: $#"
+
+#Print all arguments passed
+
+echo "Arguments passed: $@"
