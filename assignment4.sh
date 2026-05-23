@@ -26,8 +26,6 @@ echo "A random number between 1 and 100 is $RANDOM_NUMBER"
 #At the end, print how many seconds the script took to run
 
 START_TIME=$(date +%s)
-# Simulate some work with sleep
-sleep 2
 END_TIME=$(date +%s)
 ELAPSED_TIME=$((END_TIME - START_TIME))
 echo "The script took $ELAPSED_TIME seconds to run"
