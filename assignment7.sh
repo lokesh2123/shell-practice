@@ -5,8 +5,7 @@
 #Checks whether the number is a prime number or not
 #Prints the result
 
-NUMBER=$1
-if [ -z "$NUMBER" ]; then
-    echo "Error: No number provided. Please provide a number as a command line argument : $NUMBER"
+if [ -z "$1" ]; then
+    echo "Error: No number provided. Please provide a number as an argument."
     exit 1
 fi
