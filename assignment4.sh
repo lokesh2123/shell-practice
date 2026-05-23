@@ -19,3 +19,7 @@ sleep 10 &
 SLEEP_PID=$!
 echo "The PID of the sleep command is $SLEEP_PID"
 
+#Print a random number between 1–100
+RANDOM_NUMBER=$((RANDOM %100 +1))
+echo "A random number between 1 and 100 is $RANDOM_NUMBER"
+
