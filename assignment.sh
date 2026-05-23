@@ -6,5 +6,5 @@ echo "Hello world"
 DATE=$(date +%F)
 echo "Current date and time is $DATE"
 
-TIME=$(time +%T)
+TIME=$(date +%H:%M:%S)
 echo "Current time is $TIME"
