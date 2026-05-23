@@ -20,7 +20,8 @@ if [ $? -eq 0 ]; then
 else
     echo "ls /fakedir ... FAILURE"
     exit 1
-fi  
+
+elif
 
 ping -c1 google.com
 if [ $? -eq 0 ]; then
