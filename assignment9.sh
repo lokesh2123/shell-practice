@@ -15,6 +15,7 @@ if [ -z "$1" ]; then
 fi
 
 #Checks if the package is already installed — if yes, print nginx is already installed and exit
+dnf list installed MySQL
 
 if [ $? -eq 0 ]; then
     echo "MySQL is already installed ... SKIPPING"
