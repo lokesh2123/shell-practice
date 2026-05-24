@@ -5,7 +5,7 @@
 #If it is Monday, print Start of the week. Let's go!
 #For any other day, print Weekday. Go to school/work.
 
-DAY=$1       
+DAY=$(date +%A)         
 if [ "$DAY" == "Saturday" ] || [ "$DAY" == "Sunday" ]; then
     echo "Weekend! Enjoy your holiday."
 elif [ "$DAY" == "Monday" ]; then
@@ -13,3 +13,6 @@ elif [ "$DAY" == "Monday" ]; then
 else
     echo "Weekday. Go to school/work."
 fi
+
+
+
