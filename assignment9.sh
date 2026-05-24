@@ -13,3 +13,14 @@ if [ -z "$1" ]; then
     echo "Error: No package name provided. Please provide a package name as an argument."
     exit 1
 fi
+
+#Checks if the package is already installed — if yes, print nginx is already installed and exit
+
+PACKAGE=$1
+if PACKAGE=$(( -lt 0)); then
+    echo "Error: Package $PACKAGE is not installed."
+    exit 1
+else
+    echo "Package $PACKAGE is already installed."
+    exit 0
+fi
