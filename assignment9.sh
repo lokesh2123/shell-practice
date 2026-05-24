@@ -16,11 +16,10 @@ fi
 
 #Checks if the package is already installed — if yes, print nginx is already installed and exit
 
-PACKAGE=$1
-if PACKAGE=$(( -lt 0)); then
-    echo "Error: Package $PACKAGE is not installed."
-    exit 1
+if [ $? -eq 0 ]; then
+    echo "MySQL is already installed ... SKIPPING"
 else
-    echo "Package $PACKAGE is already installed."
-    exit 0
+    echo "Installing MySQL"
+    dnf install mysql -y
+    VALIDATE MySQL $?
 fi
