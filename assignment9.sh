@@ -24,3 +24,12 @@ else
     dnf install mysql -y
     VALIDATE MySQL $?
 fi
+
+VALIDATE() {
+    if [ $2 -ne 0 ]; then
+        echo "Error: Failed to install $1."
+        exit 1
+    else
+        echo "$1 installed successfully."
+    fi
+}
